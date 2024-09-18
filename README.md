@@ -175,3 +175,24 @@ dari situ muncul output, `hallo im Torako Koshi`
 - Untuk port yang digunakan, kita hanya perlu double click yang paling atas dan akan terlihat destination port untuk mendapatkan flag.
 <img width="1710" alt="image" src="https://github.com/user-attachments/assets/29f1b3b0-f4f5-4433-a645-359023b9bff8">
 
+### Rizzset
+![image](https://github.com/user-attachments/assets/bc74228a-8057-4211-8754-46ad92e6ae2c)
+
+![image](https://github.com/user-attachments/assets/c672a7a9-3abc-4979-af43-c38143eae616)
+- Karena pada soal pertama adalah domain dengan format www.domain.com dan domain yang paling sering muncul adalah its.ac.id maka saya gunakan domain tersebut
+- Kemudian saya gunakan ip 5.189.94.79 karena ip tersebut merupakan ip dari its itu sendiri.
+![image](https://github.com/user-attachments/assets/c043b4fd-2830-494f-af53-fbc3590686dc)
+- Untuk jarm dari domain saya menggunakan tools jarm sehingga menghasilkan jarm tersebut.
+
+### Gajah Terbang (Attacker Recon)
+![image](https://github.com/user-attachments/assets/c1c6404c-0101-454d-b127-47c30551dc0c)
+*Saya mengambil informasi dari TCP berikut ini*
+![image](https://github.com/user-attachments/assets/34aefe53-38fe-4b8c-825f-73ddc3c61cb2)
+- Saya mencoba satu satu email atacker dan yang benar adalah kuntoajiisrillll@gmail.com
+![image](https://github.com/user-attachments/assets/d179bd57-fb21-48a3-b132-47b59f8b5c92)
+- Untuk password saya mendecrypt dari string yang tertera kemudian munculah kissme
+- Untuk tanggal di ban juga dapat di lihat pada TCP yaitu "2024-06-09"
+- Kemudian barang yang dibeli adalah rokok dan es krim yang dapat dilihat pada TCP
+- Jumlahkan harga rokok dan eskrim dan jadi 24.500
+
+
