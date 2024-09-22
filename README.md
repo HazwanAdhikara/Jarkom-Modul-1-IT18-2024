@@ -247,6 +247,40 @@ dari situ muncul output, `hallo im Torako Koshi`
    3. Ketika di run maka akan menghasilkan output strig yaitu "ini passwordnya apa ya?"
    4. Flagnya adalah "JarkomIT{4ku_p9n_j4d1_h3n9k3r_YYkqWM8r0YQoOXRIRPRLQhtw9Am1zPNMpHJBkZoJ085eEBjxpn6naHCK}"
 
+### 16. Gajah Terbang (Server Recon)
+
+![image](https://github.com/user-attachments/assets/be27cb19-8d78-437c-821a-39fbd160faf9)
+
+**Server Recon Summary: Gajah Terbang**
+
+**IP Address and Port:**
+- **IP**: `10.15.42.60`
+- **Port**: `61000`
+
+**DBMS Information:**
+- Setelah analisis file *pcap*, diketahui bahwa server pada IP ini menggunakan **PostgreSQL** sebagai sistem manajemen basis data (DBMS).
+
+**Server Details:**
+- Pada paket dengan panjang `560`, ditemukan bahwa server berjalan di atas sistem operasi **Debian**. Hal ini menunjukkan bahwa port `61000` digunakan oleh server DBMS.
+
+**Operating System Confirmation:**
+- Setelah pemeriksaan lebih lanjut, terkonfirmasi bahwa sistem operasi yang digunakan oleh server ini adalah **Debian**.
+
+**Database Information:**
+- Username valid untuk DBMS adalah `s1gm4`.
+- Nama database yang digunakan adalah `sigmaskibidigyatrizzzz`.
+- Dalam database ini terdapat empat pengguna:
+  - **Kevin**
+  - **Jojo**
+  - **Siska**
+  - **Kuntoaji**
+
+**Admin Information:**
+- Email admin terdaftar: `jojohermawan@gmail.com`
+- Password yang digunakan oleh admin: `admin1234`. Password ini kemudian di-*hash* untuk mengetahui nilai aslinya.
+
+
+
 
     
 
